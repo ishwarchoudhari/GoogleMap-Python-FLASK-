@@ -24,7 +24,7 @@ def Map2():
 
 @app.route('/', methods=["GET"])
 def my_map():
-    return render_template('map.html')
+    return render_template('Form.html')
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True)
